@@ -14,14 +14,13 @@ body {
 header {
     padding: 20px 35px;
     padding-left: 0;
-    background-color: #e93571;
+    background-color: #ee6f9a;
 
 }
 
 header h1 {
     font-weight: bold;
     font-size: 36px;
-    color: #eac435;
     display: inline;
     background-color: #3bceac;
     padding: 10px 10px 10px 100px;
@@ -30,7 +29,7 @@ header h1 {
 
 header a {
     text-decoration: none;
-    color: #eac435;
+    color: #f8e08a;
 }
 
 header nav {
@@ -48,3 +47,24 @@ header nav ul li a {
     font-size: 22px;
 }
 
+.hero {
+    background-image: url("../images/hero.png");
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    opacity: 85%;
+}
+
+.hero h2 {
+    color: #763a8b;
+    font-weight: bold;
+    font-size: 25px;
+    /* display: inline; */
+    background-color: rgba(249, 154, 191, 0.8);
+    
+    padding: 10px;
+    border-radius: 25px;
+    width: 340px;
+    position:relative; left:800px; top:100px;
+}

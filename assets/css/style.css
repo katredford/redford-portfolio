@@ -4,3 +4,47 @@
     box-sizing: border-box;
 }
 
+/* ["eac435","540d6e","3bceac","dc1604","e93571"] */
+
+body {
+    color: #eac435;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+header {
+    padding: 20px 35px;
+    padding-left: 0;
+    background-color: #e93571;
+
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #eac435;
+    display: inline;
+    background-color: #3bceac;
+    padding: 10px 10px 10px 100px;
+    border-radius: 0px 25px 25px 0px;
+}
+
+header a {
+    text-decoration: none;
+    color: #eac435;
+}
+
+header nav {
+    float: right;
+    margin: 7px 0;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+}
+

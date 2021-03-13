@@ -47,6 +47,14 @@ header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
     font-size: 22px;
+    padding: 5px 5px;
+}
+
+header nav ul li a:hover{
+    background: #763a8b;
+    color: #3bceac;
+    border-radius: 20px;
+    padding: 5px 5px;
 }
 
 .hero {
@@ -90,6 +98,7 @@ header nav ul li a {
 
 .img img {
     width: 300px;   
+    border-radius: 24px 25px 25px 25px;
 }
 
 .img {
@@ -135,6 +144,14 @@ header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
     font-size: 22px;
+    padding: 5px 5px;
+}
+
+.contact nav ul li a:hover{
+    background: #763a8b;
+    color: #3bceac;
+    border-radius: 20px;
+    padding: 5px 5px;
 }
 
 .work {

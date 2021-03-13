@@ -56,6 +56,9 @@ header nav ul li a {
     background-position: center;
     position: relative;
     opacity: 85%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
 }
 
 .hero h2 {
@@ -67,7 +70,7 @@ header nav ul li a {
     padding: 10px;
     border-radius: 25px;
     width: 340px;
-    position:relative; left:800px; top:100px;
+    margin: 10px 57px 23px 10px;
 }
 
 .about-me {
@@ -132,4 +135,29 @@ header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
     font-size: 22px;
+}
+
+.run-buddy img {
+    height: 300px;
+    width: 600px;
+}
+
+.construction-zone img {
+    height: 100px;
+    width: 200px;
+    border-style: dotted;
+    border-color: #dc1604;
+}
+.forrest img {
+    height: 100px;
+    width: 200px;
+}
+.crystal-cave img {
+    height: 100px;
+    width: 200px;
+}
+
+.jewel-painting img {
+    height: 100px;
+    width: 200px;
 }

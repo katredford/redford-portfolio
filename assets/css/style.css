@@ -137,6 +137,14 @@ header nav ul li a {
     font-size: 22px;
 }
 
+.work {
+    font-size: 30px;
+    border-right: dashed;
+    width: 150px;
+    text-align: right;
+    padding: 21px 23px 14px 14px;
+    margin: 38px 57px 35px 50px;
+}
 .work-container {
     display: flex;
     flex-wrap: wrap;
@@ -166,12 +174,24 @@ header nav ul li a {
     width: 600px;
     /* align-items: center; */
 }
-.run-buddy img {
+.run-buddy {
+    background-image: url("../images/runbuddy.png");
+    background-size: cover;
+    background-position: center;
     height: 300px;
     width: 600px;
-    border-style: dotted;
-    border-color: #dc1604;
+    border-style: solid;
+    border-color: #ee6f9a;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    border-radius: 24px 25px 25px 25px;
+    border-width: 8px;
 }
+
+.run-buddy:hover {
+    opacity: 75%;
+  }
 
 .construction-zone  {
     background-image: url("../images/construction-zone.jpg");
@@ -179,30 +199,61 @@ header nav ul li a {
     background-position: center;
     height: 150px;
     width: 290px;
-    border-style: dotted;
-    border-color: #dc1604;
+    border-style: solid;
+    border-color: #ee6f9a;
     margin: 5px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    border-radius: 24px 25px 25px 25px;
+    border-width: 8px;
 }
+
+.construction-zone:hover {
+    opacity: 75%;
+  }
+
+
 .forrest {
     background-image: url("../images/forrest.jpg");
     background-size: cover;
     background-position: center;
     height: 150px;
     width: 290px;
-    border-style: dotted;
-    border-color: #dc1604;
+    border-style: solid;
+    border-color: #ee6f9a;
     margin: 5px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    border-radius: 24px 25px 25px 25px;
+    border-width: 8px;
 }
+
+.forrest:hover {
+    opacity: 75%;
+  }
+
 .crystal-cave {
     background-image: url("../images/crystalcave.JPG");
     background-size: cover;
     background-position: center;
     height: 150px;
     width: 290px;
-    border-style: dotted;
-    border-color: #dc1604;
+    border-style: solid;
+    border-color: #ee6f9a;
     margin: 5px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    border-radius: 24px 25px 25px 25px;
+    border-width: 8px;
 }
+
+.crystal-cave:hover {
+    opacity: 75%;
+  }
+
 
 .jewel-painting {
     background-image: url("../images/painting-jewel.JPG");
@@ -210,43 +261,63 @@ header nav ul li a {
     background-position: center;
     height: 150px;
     width: 290px;
-    border-style: dotted;
-    border-color: #dc1604;
+    border-style: solid;
+    border-color: #ee6f9a;
     margin: 5px;
-}
-
-.title-cz {
-    width: 100px;
-    background-color: seagreen;
-    margin: 9px 12px 15px 12px;
     display: flex;
     justify-content: flex-start;
     align-items: flex-end;
+    border-radius: 24px 25px 25px 25px;
+    border-width: 8px;
+}
+
+.jewel-painting:hover {
+    opacity: 75%;
+  }
+
+.title-cz {
+    width: 129px;
+    background-color: #ee6f9a;
+    margin: 15px 15px 27px 0px;
+    font-size: 20px;
+    padding: 11px 1px 11px 7px;
+    border-radius: 0px 25px 25px 0px;
+    
 }
 
 .title-f {
-    width: 100px;
-    background-color: seagreen;
-    margin: 9px 12px 15px 12px;
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-end;
+    width: 129px;
+    background-color: #ee6f9a;
+    margin: 15px 15px 27px 0px;
+    font-size: 20px;
+    padding: 11px 1px 11px 7px;
+    border-radius: 0px 25px 25px 0px;
 }
 
 .title-cc {
-    width: 100px;
-    background-color: seagreen;
-    margin: 9px 12px 15px 12px;
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-end;
+    width: 129px;
+    background-color: #ee6f9a;
+    margin: 15px 15px 27px 0px;
+    font-size: 20px;
+    padding: 11px 1px 11px 7px;
+    border-radius: 0px 25px 25px 0px;
 }
 
 .title-jp {
-    width: 100px;
-    background-color: seagreen;
-    margin: 9px 12px 15px 12px;
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-end;
+    width: 129px;
+    background-color: #ee6f9a;
+    margin: 15px 15px 27px 0px;
+    font-size: 20px;
+    padding: 11px 1px 11px 7px;
+    border-radius: 0px 25px 25px 0px;
 }
+
+.title-rb {
+    width: 129px;
+    background-color: #ee6f9a;
+    margin: 15px 15px 27px 0px;
+    font-size: 20px;
+    padding: 11px 1px 11px 7px;
+    border-radius: 0px 25px 25px 0px;
+}
+

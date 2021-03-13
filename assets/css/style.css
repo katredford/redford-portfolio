@@ -173,21 +173,30 @@ header nav ul li a {
     border-color: #dc1604;
 }
 
-.construction-zone img {
+.construction-zone  {
+    background-image: url("../images/construction-zone.jpg");
+    background-size: cover;
+    background-position: center;
     height: 150px;
     width: 290px;
     border-style: dotted;
     border-color: #dc1604;
     margin: 5px;
 }
-.forrest img {
+.forrest {
+    background-image: url("../images/forrest.jpg");
+    background-size: cover;
+    background-position: center;
     height: 150px;
     width: 290px;
     border-style: dotted;
     border-color: #dc1604;
     margin: 5px;
 }
-.crystal-cave img {
+.crystal-cave {
+    background-image: url("../images/crystalcave.JPG");
+    background-size: cover;
+    background-position: center;
     height: 150px;
     width: 290px;
     border-style: dotted;
@@ -195,10 +204,49 @@ header nav ul li a {
     margin: 5px;
 }
 
-.jewel-painting img {
+.jewel-painting {
+    background-image: url("../images/painting-jewel.JPG");
+    background-size: cover;
+    background-position: center;
     height: 150px;
     width: 290px;
     border-style: dotted;
     border-color: #dc1604;
     margin: 5px;
+}
+
+.title-cz {
+    width: 100px;
+    background-color: seagreen;
+    margin: 9px 12px 15px 12px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.title-f {
+    width: 100px;
+    background-color: seagreen;
+    margin: 9px 12px 15px 12px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.title-cc {
+    width: 100px;
+    background-color: seagreen;
+    margin: 9px 12px 15px 12px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.title-jp {
+    width: 100px;
+    background-color: seagreen;
+    margin: 9px 12px 15px 12px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
 }

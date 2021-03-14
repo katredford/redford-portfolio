@@ -198,27 +198,28 @@ header nav ul li a:hover{
     width: 600px;
     /* align-items: center; */
 }
+
+
 .run-buddy {
     background-image: url("../images/runbuddy.png");
     background-size: cover;
-    background-position: center;
+    background-position: center;  
     height: 300px;
     width: 600px;
-    border-style: solid;
-    border-color: #ee6f9a;
     display: flex;
     justify-content: flex-start;
     align-items: flex-end;
     border-radius: 24px 25px 25px 25px;
     border-width: 8px;
+    border-style: solid;
+    border-color: #ee6f9a;   
 }
 
 .run-buddy:hover {
     opacity: 75%;
   }
 
-.construction-zone  {
-    background-image: url("../images/construction-zone.jpg");
+.work-style {
     background-size: cover;
     background-position: center;
     height: 150px;
@@ -231,6 +232,20 @@ header nav ul li a:hover{
     align-items: flex-end;
     border-radius: 24px 25px 25px 25px;
     border-width: 8px;
+}
+
+.construction-zone  {
+    background-image: url("../images/construction-zone.jpg");
+    /* height: 150px;
+    width: 290px;
+    border-style: solid;
+    border-color: #ee6f9a;
+    margin: 5px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    border-radius: 24px 25px 25px 25px;
+    border-width: 8px; */
 }
 
 .construction-zone:hover {
@@ -239,7 +254,7 @@ header nav ul li a:hover{
 
 .forrest {
     background-image: url("../images/forrest.jpg");
-    background-size: cover;
+    /* background-size: cover;
     background-position: center;
     height: 150px;
     width: 290px;
@@ -250,7 +265,7 @@ header nav ul li a:hover{
     justify-content: flex-start;
     align-items: flex-end;
     border-radius: 24px 25px 25px 25px;
-    border-width: 8px;
+    border-width: 8px; */
 }
 
 .forrest:hover {
@@ -259,7 +274,7 @@ header nav ul li a:hover{
 
 .crystal-cave {
     background-image: url("../images/crystalcave.JPG");
-    background-size: cover;
+    /* background-size: cover;
     background-position: center;
     height: 150px;
     width: 290px;
@@ -270,7 +285,7 @@ header nav ul li a:hover{
     justify-content: flex-start;
     align-items: flex-end;
     border-radius: 24px 25px 25px 25px;
-    border-width: 8px;
+    border-width: 8px; */
 }
 
 .crystal-cave:hover {
@@ -279,7 +294,7 @@ header nav ul li a:hover{
 
 .jewel-painting {
     background-image: url("../images/painting-jewel.JPG");
-    background-size: cover;
+    /* background-size: cover;
     background-position: center;
     height: 150px;
     width: 290px;
@@ -290,14 +305,16 @@ header nav ul li a:hover{
     justify-content: flex-start;
     align-items: flex-end;
     border-radius: 24px 25px 25px 25px;
-    border-width: 8px;
+    border-width: 8px; */
 }
 
 .jewel-painting:hover {
     opacity: 75%;
   }
 
-.title-cz {
+
+
+.title-cz, .title-f, .title-jp, .title-rb, .title-cc {
     width: 129px;
     background-color: #ee6f9a;
     margin: 15px 15px 27px 0px;
@@ -307,7 +324,7 @@ header nav ul li a:hover{
     
 }
 
-.title-f {
+/* .title-f {
     width: 129px;
     background-color: #ee6f9a;
     margin: 15px 15px 27px 0px;
@@ -347,4 +364,4 @@ header nav ul li a:hover{
 .link {
     text-decoration: none;
     color: #f8e08a;
-}
+} */

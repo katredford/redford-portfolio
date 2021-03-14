@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-/* ["eac435","540d6e","3bceac","dc1604","e93571"] */
+/* colors ["eac435","540d6e","3bceac","dc1604","e93571"] */
 
 body {
     color: #eac435;
@@ -27,7 +27,6 @@ header {
     flex-wrap: wrap;
     align-items: center;
     
-
 }
 
 header h1 {
@@ -87,7 +86,6 @@ header nav ul li a:hover{
     color: #763a8b;
     font-weight: bold;
     font-size: 25px;
-    /* display: inline-block; */
     background-color: rgba(249, 154, 191, 0.8);
     padding: 10px;
     border-radius: 25px;
@@ -97,10 +95,8 @@ header nav ul li a:hover{
 
 .about-me {
     display: flex;
-    /* flex-wrap: wrap; */
-    /* align-items: center;
-    justify-content: space-between; */
 }
+
 .section-title {
     font-size: 30px;
     border-right: dashed;
@@ -137,11 +133,8 @@ header nav ul li a:hover{
 
 .contact {
     display: flex;
-    /* flex-wrap: wrap; */
     align-items: center;
-    /* justify-content: space-between; */
 }
-
 
 .contact nav a{
     margin: 7px 0;
@@ -244,7 +237,6 @@ header nav ul li a:hover{
     opacity: 75%;
   }
 
-
 .forrest {
     background-image: url("../images/forrest.jpg");
     background-size: cover;
@@ -284,7 +276,6 @@ header nav ul li a:hover{
 .crystal-cave:hover {
     opacity: 75%;
   }
-
 
 .jewel-painting {
     background-image: url("../images/painting-jewel.JPG");
@@ -350,9 +341,6 @@ header nav ul li a:hover{
     font-size: 20px;
     padding: 11px 1px 11px 7px;
     border-radius: 0px 25px 25px 0px;
-    
-    
-    
 }
 
 
@@ -360,6 +348,3 @@ header nav ul li a:hover{
     text-decoration: none;
     color: #f8e08a;
 }
-/* display:block;
-    height:100px;
-    width:460px; */

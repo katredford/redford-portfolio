@@ -12,7 +12,7 @@ Here is my portfolio! there is a spot for a resume but it does not link to anyth
 ![alt text](assets/images/portfolio.application.screenshot.png)
 ```
 
-deoployed application:
+deployed application:
 https://katredford.github.io/redford-portfolio/
 
 Project Repo:

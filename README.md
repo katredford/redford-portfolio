@@ -9,11 +9,11 @@ Here is my portfolio! there is a spot for a resume but it does not link to anyth
 
 
 ```md
-![alt text](assets/images/screenshot.png)
+![alt text](assets/images/portfolio.application.screenshot.png)
 ```
 
 deoployed application:
-file:///Users/katier./Desktop/Bootcamp/Portfolio/index.html
+https://katredford.github.io/redford-portfolio/
 
 Project Repo:
 https://github.com/katredford/redford-portfolio

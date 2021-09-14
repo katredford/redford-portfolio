@@ -164,7 +164,7 @@ header nav ul li a:hover{
     border-right: dashed;
     width: 150px;
     text-align: right;
-    padding: 14px 23px 568px 14px;
+    padding: 14px 23px 444px 14px;
     margin: 38px 57px 35px 50px;
 }
 .work-container {
@@ -198,8 +198,8 @@ header nav ul li a:hover{
 }
 
 
-.run-buddy {
-    background-image: url("../images/runbuddy.png");
+.bbcm-program {
+    background-image: url("../images/bbcm.home.png");
     background-size: cover;
     background-position: center;  
     height: 300px;
@@ -213,7 +213,7 @@ header nav ul li a:hover{
     border-color: #ee6f9a;   
 }
 
-.run-buddy:hover {
+.bbcm-program:hover {
     opacity: 75%;
   }
 
@@ -232,37 +232,37 @@ header nav ul li a:hover{
     border-width: 8px;
 }
 
-.construction-zone  {
-    background-image: url("../images/construction-zone.jpg");
+.kitten-around  {
+    background-image: url("../images/kittenaround.home.png");
 }
 
-.construction-zone:hover {
+.kitten-around:hover {
     opacity: 75%;
   }
 
-.forrest {
+/* .forrest {
     background-image: url("../images/forrest.jpg");
 }
 
 .forrest:hover {
     opacity: 75%;
-  }
+  } */
 
-.crystal-cave {
-    background-image: url("../images/crystalcave.JPG");
+.roast-me {
+    background-image: url("../images/roastme.home.png");
 }
 
-.crystal-cave:hover {
+.roast-me:hover {
     opacity: 75%;
   }
 
-.jewel-painting {
+/* .jewel-painting {
     background-image: url("../images/painting-jewel.JPG");
 }
 
 .jewel-painting:hover {
     opacity: 75%;
-  }
+  } */
 
 .title-cz, .title-f, .title-jp, .title-rb, .title-cc {
     width: 129px;

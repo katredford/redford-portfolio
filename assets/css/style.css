@@ -78,23 +78,20 @@ header nav ul li a:hover{
     padding: 8px;
     width: 291px;
 }
+
 .repo-link {
-    border-radius: 20px;
-    background: #754271;
     margin: 5px 5px ;
     font-weight: lighter;
     font-size: 17px;
     padding: 5px 5px;
-    width: 98px;
+    
 }
 
-.repo-link:hover {
+.repo-link :hover {
     background: #763a8b;
     color: #3bceac;
     border-radius: 20px;
-    font-size: 17px;
-    padding: 5px 5px ;
-    width: 98px;
+    
 }
 
 .hero {

@@ -69,6 +69,34 @@ header nav ul li a:hover{
     padding: 5px 5px;
 }
 
+.top-work-description {
+    padding: 8px;
+    width: 575px;
+}
+
+.bottom-work-description {
+    padding: 8px;
+    width: 291px;
+}
+.repo-link {
+    border-radius: 20px;
+    background: #754271;
+    margin: 5px 5px ;
+    font-weight: lighter;
+    font-size: 17px;
+    padding: 5px 5px;
+    width: 98px;
+}
+
+.repo-link:hover {
+    background: #763a8b;
+    color: #3bceac;
+    border-radius: 20px;
+    font-size: 17px;
+    padding: 5px 5px ;
+    width: 98px;
+}
+
 .hero {
     background-image: url("../images/hero.png");
     height: 200px;
@@ -94,6 +122,7 @@ header nav ul li a:hover{
 
 .about-me {
     display: flex;
+    margin: 4px 4px 4px 4px;
 }
 
 .section-title {
@@ -117,7 +146,7 @@ header nav ul li a:hover{
 .about-me-content {
     margin: 10px 7px 10px 10px;
     padding-bottom: 7px;
-    width: 600px;
+    width: 1000px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -126,7 +155,7 @@ header nav ul li a:hover{
 .bio-text {
     margin: 13px 13px 12px 10px;
     font-size: 16px;
-    width: 400px;
+    width: 1000px;
     flex: -5 40%;
 }
 
@@ -164,7 +193,7 @@ header nav ul li a:hover{
     border-right: dashed;
     width: 150px;
     text-align: right;
-    padding: 14px 23px 444px 14px;
+    padding: 14px 23px 636px 14px;
     margin: 38px 57px 35px 50px;
 }
 .work-container {
